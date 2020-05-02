@@ -2,7 +2,7 @@
 
 ### 01. 프로젝트(폴더) 생성하기
 
-$ mkdir ts-practice # ts-practice 라는 디렉터리 생성<br />
+$ mkdir typescript-practice # typescript-practice 라는 디렉터리 생성<br />
 $ cd ts-practice # 해당 디렉터리로 이동<br />
 \$ yarn init -y # 또는 npm init -y
 
@@ -16,3 +16,7 @@ $ tsc --init<br />
 - strict: 모든 타입 체킹 옵션을 활성화한다는 것을 의미합니다.
 - esModuleInterop: commonjs 모듈 형태로 이루어진 파일을 es2015 모듈 형태로 불러올 수 있게 해줍니다.
 - outDir: 컴파일된 파일들이 저장되는 경로를 지정 할 수 있습니다.
+
+### 03. 컴파일 명령어
+
+\$ tsc
